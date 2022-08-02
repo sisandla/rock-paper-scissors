@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,8 +16,9 @@ code {
   text-align: center;
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #001641;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,14 +28,17 @@ code {
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
+
 
 input[type=number] {
   font-size: calc(10px + 2vmin);
   width: 4em;
 }
+
 
 button {
   font-size: calc(10px + 2vmin);

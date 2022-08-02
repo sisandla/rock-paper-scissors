@@ -4,7 +4,6 @@ const exports = {};
 
 // Player views must be extended.
 // It does not have its own Wrapper view.
-
 exports.GetHand = class extends React.Component {
   render() {
     const {parent, playable, hand} = this.props;
@@ -31,6 +30,7 @@ exports.GetHand = class extends React.Component {
   }
 }
 
+
 exports.WaitingForResults = class extends React.Component {
   render() {
     return (
@@ -40,6 +40,7 @@ exports.WaitingForResults = class extends React.Component {
     );
   }
 }
+
 
 exports.Done = class extends React.Component {
   render() {
@@ -53,6 +54,7 @@ exports.Done = class extends React.Component {
   }
 }
 
+
 exports.Timeout = class extends React.Component {
   render() {
     return (
@@ -62,5 +64,6 @@ exports.Timeout = class extends React.Component {
     );
   }
 }
+
 
 export default exports;

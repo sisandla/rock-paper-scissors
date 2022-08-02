@@ -5,6 +5,7 @@ const exports = {...PlayerViews};
 
 const sleep = (milliseconds) => new Promise(resolve => setTimeout(resolve, milliseconds));
 
+
 exports.Wrapper = class extends React.Component {
   render() {
     const {content} = this.props;
@@ -16,6 +17,7 @@ exports.Wrapper = class extends React.Component {
     );
   }
 }
+
 
 exports.SetWager = class extends React.Component {
   render() {
@@ -37,6 +39,7 @@ exports.SetWager = class extends React.Component {
   }
 }
 
+
 exports.Deploy = class extends React.Component {
   render() {
     const {parent, wager, standardUnit} = this.props;
@@ -51,6 +54,7 @@ exports.Deploy = class extends React.Component {
     );
   }
 }
+
 
 exports.Deploying = class extends React.Component {
   render() {
@@ -88,5 +92,6 @@ exports.WaitingForAttacher = class extends React.Component {
     )
   }
 }
+
 
 export default exports;

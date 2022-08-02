@@ -2,6 +2,7 @@ import React from 'react';
 
 const exports = {};
 
+
 exports.Wrapper = class extends React.Component {
   render() {
     const {content} = this.props;
@@ -16,6 +17,7 @@ exports.Wrapper = class extends React.Component {
   }
 }
 
+
 exports.ConnectAccount = class extends React.Component {
   render() {
     return (
@@ -26,6 +28,7 @@ exports.ConnectAccount = class extends React.Component {
     )
   }
 }
+
 
 exports.FundAccount = class extends React.Component {
   render() {
@@ -53,6 +56,7 @@ exports.FundAccount = class extends React.Component {
   }
 }
 
+
 exports.DeployerOrAttacher = class extends React.Component {
   render() {
     const {parent} = this.props;
@@ -76,5 +80,6 @@ exports.DeployerOrAttacher = class extends React.Component {
     );
   }
 }
+
 
 export default exports;

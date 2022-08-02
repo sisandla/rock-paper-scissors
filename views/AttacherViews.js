@@ -3,6 +3,7 @@ import PlayerViews from './PlayerViews';
 
 const exports = {...PlayerViews};
 
+
 exports.Wrapper = class extends React.Component {
   render() {
     const {content} = this.props;
@@ -14,6 +15,7 @@ exports.Wrapper = class extends React.Component {
     );
   }
 }
+
 
 exports.Attach = class extends React.Component {
   render() {
@@ -38,6 +40,7 @@ exports.Attach = class extends React.Component {
   }
 }
 
+
 exports.Attaching = class extends React.Component {
   render() {
     return (
@@ -47,6 +50,7 @@ exports.Attaching = class extends React.Component {
     );
   }
 }
+
 
 exports.AcceptTerms = class extends React.Component {
   render() {
@@ -69,6 +73,7 @@ exports.AcceptTerms = class extends React.Component {
   }
 }
 
+
 exports.WaitingForTurn = class extends React.Component {
   render() {
     return (
@@ -79,5 +84,6 @@ exports.WaitingForTurn = class extends React.Component {
     );
   }
 }
+
 
 export default exports;
